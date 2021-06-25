@@ -4,7 +4,6 @@ const db = require('../models');
 
 var main = async () => {
     try {
-        console.log('get');
         const data = await db.post.findAll({
             where: { userId: 1 },
             attributes: ['postText', 'totalPostLikes', 'totalPostStrikes', 'totalPostQuotes', 'totalPostShare'],

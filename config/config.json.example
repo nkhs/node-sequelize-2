@@ -1,0 +1,32 @@
+{
+    "mysqlConfig": {
+        "define": {
+            "charset": "utf8",
+            "collate": "utf8_general_ci"
+        },
+        "charset": "utf8",
+        "collate": "utf8_general_ci",
+        "dialect": "mysql",
+        "port": 3306,
+        "logging": false,
+        "database": "db-test",
+        "replication": {
+            "read": [
+                {
+                    "host": "127.0.0.1",
+                    "username": "root",
+                    "password": ""
+                }
+            ],
+            "write": {
+                "host": "127.0.0.1",
+                "username": "root",
+                "password": ""
+            }
+        },
+        "pool": {
+            "max": 20,
+            "idle": 30000
+        }
+    }
+}

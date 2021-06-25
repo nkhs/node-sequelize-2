@@ -3,7 +3,7 @@ const Op = Sequelize.Op;
 const db = require('../models');
 
 module.exports = {
-    async invoices(req, res, next) {
+    async test(req, res, next) {
         res.send([]);
     },
 };

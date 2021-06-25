@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-var invoice = require('./invoice');
+var test = require('./test');
 
 
-router.use('/invoice', invoice);
+router.use('/test', test);
 
 module.exports = router;

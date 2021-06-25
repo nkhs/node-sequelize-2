@@ -6,7 +6,7 @@
         },
         "charset": "utf8",
         "collate": "utf8_general_ci",
-        "dialect": "mysql",
+        "dialect": "sqlite",
         "port": 3306,
         "logging": false,
         "database": "db-test",

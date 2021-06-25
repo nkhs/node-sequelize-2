@@ -12,7 +12,9 @@
     "express": "^4.17.1",
     "http-errors": "^1.8.0",
     "mysql2": "^2.2.5",
-    "sequelize": "^4.0.0"
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {},
   "main": "bin/www"

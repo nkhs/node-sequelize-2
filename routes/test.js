@@ -3,10 +3,10 @@ var router = express.Router();
 
 /*====Controller Listing============*/
 
-var invoice = require('../controller/invoice');
+var test = require('../controller/test');
 
 /*=======Routes============ */
 
-router.get('/invoices', invoice.invoices);
+router.get('/test', test.test);
 
 module.exports = router;
